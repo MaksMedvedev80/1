@@ -1,0 +1,33 @@
+/* Основные стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Выравнивание по центру */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Стили для кнопок */
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* При наведении на кнопки */
+button:hover {
+    background-color: #ddd;
+}
